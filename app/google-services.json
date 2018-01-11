@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "680102181327",
+    "firebase_url": "https://bokingfutsal-b52ad.firebaseio.com",
+    "project_id": "bokingfutsal-b52ad",
+    "storage_bucket": "bokingfutsal-b52ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680102181327:android:95b33d1118b47fee",
+        "android_client_info": {
+          "package_name": "com.example.windows10.bokingfutsal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680102181327-2gbp8e91k1ic5dpuo4mu5aqtv7oductl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.windows10.bokingfutsal",
+            "certificate_hash": "5657a20aaa65401f5283aca364a5291f7997095f"
+          }
+        },
+        {
+          "client_id": "680102181327-aeg03lg75j475k37kl2hl9uege54maa5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRTX5O9_qT3dFU9KIi-rjnBzw4cj04scU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680102181327-aeg03lg75j475k37kl2hl9uege54maa5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

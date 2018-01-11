@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar1"
+    tools:context="com.example.windows10.bokingfutsal.MenuBookingActivity">
+
+
+    <EditText
+        android:id="@+id/namapms"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alamatpms"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/alamatpms"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:hint="Nama Pemesan"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/alamatpms"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/notlp"
+        android:layout_alignStart="@+id/notlp"
+        android:layout_below="@+id/namapms"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Alamat Pemesan"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/notlp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamatpms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Nomor Telepon"
+        android:inputType="textPhonetic|phone" />
+
+    <EditText
+        android:id="@+id/waktupms"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notlp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Tanggal Pemesanan"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/waktupms"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/waktupms"
+        android:layout_marginBottom="91dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Kirim Ke Operator"
+        android:onClick="doKirim"/>
+
+    <EditText
+        android:id="@+id/jam"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/waktupms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Jam Yang Di Pesan"
+        android:inputType="time" />
+
+</RelativeLayout>
